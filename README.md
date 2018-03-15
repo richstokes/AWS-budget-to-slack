@@ -1,11 +1,14 @@
 # AWS-budget-to-slack
 AWS Lambda function posts billing updates to your Slack channel. Built for Python3.6
 
-Requires you to create a Slack API application with an incoming webhook. 
+## Requirements
 
-Trigger the function with a CloudWatch event set to your desired interval. 
+Create a Slack API application with an incoming webhook. 
 
-For example, you could set the schedule to "rate(7 days)" to get a billing update in Slack once per week.
+Trigger the function with a CloudWatch event set to your desired interval. For example, you could set the schedule to "rate(7 days)" to get a billing update in Slack once per week.
+
+Give the Lambda function read-only access to your billing info.
+
 
 ## Example output
 ![AWS-to-slack report](https://raw.githubusercontent.com/richstokes/AWS-budget-to-slack/master/example.png)
