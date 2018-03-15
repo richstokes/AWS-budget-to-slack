@@ -10,5 +10,5 @@ Trigger the function with a CloudWatch event set to your desired interval. For e
 Give the Lambda function read-only access to your billing info.
 
 
-## Example output
+## Example Slack post
 ![AWS-to-slack report](https://raw.githubusercontent.com/richstokes/AWS-budget-to-slack/master/example.png)
